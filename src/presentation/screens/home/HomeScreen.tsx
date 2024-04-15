@@ -13,9 +13,6 @@ export const HomeScreen = () => {
         style={globalStyles.primaryButton}>
         <Text style={globalStyles.buttonText}>Product</Text>
       </Pressable>
-      <Pressable onPressIn={() => console.log('log')}>
-        <Text>Log</Text>
-      </Pressable>
     </View>
   );
 };
